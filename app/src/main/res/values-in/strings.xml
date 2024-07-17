@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Perpustakaan Buku</string>
+
+    <string name="title_signup_page">Halaman Daftar Perpustakaan</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="date_of_birth">Tanggal Lahir</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="address">Alamat</string>
+    <string name="signup">Daftar</string>
+    <string name="title_add_book">Halaman Tambah Buku</string>
+    <string name="add_book_content">Silakan isi detail buku.</string>
+    <string name="book_title">Judul Buku</string>
+    <string name="book_author">Penulis Buku</string>
+    <string name="number_of_pages">Jumlah Halaman</string>
+    <string name="add">Tambahkan</string>
+    <string-array name="gender_array">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string name="title_login_page">Halaman Masuk Perpustakaan</string>
+    <string name="welcome_message">Selamat datang di Perpustakaan. Silakan masuk untuk melanjutkan.</string>
+    <string name="login">Masuk</string>
+    <string name="masukkan_nama_pengguna">Masukkan Nama Pengguna</string>
+    <string name="masukkan_kata_sandi">Masukkan Kata Sandi</string>
+    <string name="masukkan_nama_lengkap">Masukkan Nama Lengkap</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="masukkan_tanggal_lahir">Masukkan Tanggal Lahir</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="title_welcome_page">Selamat Datang di Perpustakaan</string>
+    <string name="message_welcome_page">Selamat datang di perpustakaan kami. Silakan masuk untuk melanjutkan.</string>
+    <string name="update_book_content">Silakan ganti isi detail buku.</string>
+    <string name="halaman_update_buku">Halaman Update Buku</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_sekarang">Daftar sekarang</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="login_sekarang">Login sekarang</string>
+    <string name="update">Update</string>
+    <string name="delete">Hapus</string>
+    <string name="halaman"> halaman</string>
+
+</resources>

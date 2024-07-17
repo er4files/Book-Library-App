@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Book Library</string>
+
+    <string name="title_signup_page">Sign Up Page</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_add_book">Add Book Page</string>
+    <string name="add_book_content">Please fill in the book details.</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_author">Book Author</string>
+    <string name="number_of_pages">Number of Pages</string>
+    <string name="add">Add</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_login_page">Login Page</string>
+    <string name="welcome_message">Welcome to the Library. Please log in to continue.</string>
+    <string name="login">Log In</string>
+    <string name="masukkan_nama_pengguna">Enter Username</string>
+    <string name="masukkan_kata_sandi">Enter Password</string>
+    <string name="masukkan_nama_lengkap">Enter Full Name</string>
+    <string name="masukkan_email">Enter Email</string>
+    <string name="masukkan_tanggal_lahir">Enter Date of Birth</string>
+    <string name="masukkan_alamat">Enter Address</string>
+    <string name="title_welcome_page">Welcome to the Library</string>
+    <string name="message_welcome_page">Welcome to our library. Please log in to continue.</string>
+    <string name="update_book_content">Please update the book details.</string>
+    <string name="halaman_update_buku">Update Book Page</string>
+    <string name="belum_punya_akun">Dont have an account yet?</string>
+    <string name="daftar_sekarang">Sign Up Now</string>
+    <string name="sudah_punya_akun">Already have an account?</string>
+    <string name="login_sekarang">Log In Now</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="halaman"> page</string>
+</resources>

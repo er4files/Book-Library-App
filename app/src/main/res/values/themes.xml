@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BookLibraryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand colors used in the app -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorSecondary">@color/secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/secondary_light</item>
+        <item name="android:colorAccent">@color/accent</item>
+
+        <!-- Light and dark themes -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:colorForeground">@color/black</item>
+
+
+        <!-- Customize other theme attributes as needed -->
+        <!-- For example, windowBackground, statusBarColor, navigationBarColor, etc. -->
+    </style>
+</resources>
