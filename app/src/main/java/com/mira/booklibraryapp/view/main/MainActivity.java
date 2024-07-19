@@ -18,6 +18,7 @@ import com.mira.booklibraryapp.R;
 import com.mira.booklibraryapp.view.add.AddActivity;
 import com.mira.booklibraryapp.view.adapter.CustomAdapter;
 import com.mira.booklibraryapp.database.MyDatabaseHelper;
+import com.mira.booklibraryapp.view.info.InfoActivity;
 import com.mira.booklibraryapp.view.welcome.WelcomeActivity;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.OnB
 
     RecyclerView recyclerView;
     FloatingActionButton add_button;
-    RelativeLayout logout_icon;
+    RelativeLayout logout_icon, question_icon;
 
     MyDatabaseHelper myDB;
     ArrayList<String> book_id, book_title, book_author, book_pages;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.OnB
         recyclerView = findViewById(R.id.recyclerView);
         add_button = findViewById(R.id.add_button);
         logout_icon = findViewById(R.id.logout_icon);
+        question_icon = findViewById(R.id.question_icon);
 
         myDB = new MyDatabaseHelper(MainActivity.this);
         book_id = new ArrayList<>();
@@ -53,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements CustomAdapter.OnB
 
         add_button.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, AddActivity.class);
+            startActivity(intent);
+        });
+
+        question_icon.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, InfoActivity.class);
             startActivity(intent);
         });
 

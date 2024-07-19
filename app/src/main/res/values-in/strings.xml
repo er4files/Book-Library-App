@@ -41,5 +41,9 @@
     <string name="update">Update</string>
     <string name="delete">Hapus</string>
     <string name="halaman"> halaman</string>
+    <string name="upload_image">Upload Gambar</string>
+    <string name="upload_document">Upload Dokumen</string>
+    <string name="no_file_selected">Tidak ada file yang dipilih</string>
+    <string name="addadd">tambah</string>
 
 </resources>

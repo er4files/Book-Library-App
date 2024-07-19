@@ -41,4 +41,9 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="halaman"> page</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="addadd">Add</string>
+
 </resources>

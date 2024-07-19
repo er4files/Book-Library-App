@@ -14,9 +14,14 @@
         android:theme="@style/Base.Theme.BookLibraryApp"
         tools:targetApi="31">
         <activity
-            android:name=".view.update.UpdateActivity"
+            android:name=".view.info.InfoActivity"
             android:exported="false" />
-        <!-- WelcomeActivity -->
+        <activity
+            android:name=".view.detail.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.update.UpdateActivity"
+            android:exported="false" /> <!-- WelcomeActivity -->
         <activity
             android:name=".view.welcome.WelcomeActivity"
             android:exported="false">

@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mira.booklibraryapp.R;
 import com.mira.booklibraryapp.database.MyDatabaseHelper;
+import com.mira.booklibraryapp.view.detail.DetailActivity;
 import com.mira.booklibraryapp.view.update.UpdateActivity;
 
 import java.util.ArrayList;
@@ -51,6 +52,16 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.book_title_txt.setText(book_title.get(position));
         holder.book_author_txt.setText(book_author.get(position));
         holder.book_pages_txt.setText(book_pages.get(position));
+
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, DetailActivity.class);
+            intent.putExtra("BOOK_ID", book_id.get(position));
+            intent.putExtra("BOOK_TITLE", book_title.get(position));
+            intent.putExtra("BOOK_AUTHOR", book_author.get(position));
+            intent.putExtra("BOOK_PAGES", book_pages.get(position));
+            context.startActivity(intent);
+        });
+
 
         holder.update_icon.setOnClickListener(new View.OnClickListener() {
             @Override
